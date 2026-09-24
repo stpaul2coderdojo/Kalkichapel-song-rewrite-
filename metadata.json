@@ -1,0 +1,6 @@
+{
+  "name": "Antigravity Song Studio & Karaoke AI",
+  "description": "Agentic AI app powered by Antigravity to extract, customize, and regenerate song lyrics with real-time karaoke effects, vocal isolation, and dynamic playback.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
