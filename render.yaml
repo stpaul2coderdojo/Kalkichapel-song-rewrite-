@@ -1,0 +1,47 @@
+# Render Blueprint Specification for Quantum Hybrid File System & Earth Peace Network
+# Documentation: https://render.com/docs/blueprint-spec
+# To deploy, connect your repository to Render (https://dashboard.render.com/blueprints)
+version: 1
+
+services:
+  # -------------------------------------------------------------
+  # Full-Stack Production Web Service (Node.js + Express + React SPA)
+  # Provides server-side Quantum Circuit Simulation & Gaia AI APIs
+  # -------------------------------------------------------------
+  - type: web
+    name: quantum-hybrid-file-system
+    runtime: node
+    plan: starter
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: GEMINI_API_KEY
+        sync: false
+
+  # -------------------------------------------------------------
+  # Alternative: Static Site Preview (Client-Side Only)
+  # Zero-cost global CDN static deployment for the frontend
+  # -------------------------------------------------------------
+  - type: web
+    name: qhfs-static-frontend
+    runtime: static
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    autoDeploy: true
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+      - type: header
+        path: /*
+        name: Cache-Control
+        value: public, max-age=3600
