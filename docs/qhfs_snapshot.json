@@ -1,0 +1,366 @@
+[
+  {
+    "id": "qhfs-000",
+    "name": "qhfs_mesh_manifest_v2.4.json",
+    "sizeBytes": 124000,
+    "tier": "Post-Quantum Cryo-NVMe",
+    "quantumState": "Stabilizer Protected",
+    "qubitsRequired": 4,
+    "coherenceTimeRemainingMs": 3600000,
+    "maxCoherenceTimeMs": 3600000,
+    "merkleProof": "0x33e8b901fc88e932456aa09918f2a93c71b",
+    "latticeHash": "kyber1024-secp-root00manifest739",
+    "category": "encrypted-state",
+    "contentPreview": "{\"network\":\"Earth Peace Quantum Mesh\",\"version\":\"2.4-HYBRID\",\"shards\":16,\"latticeProtection\":\"Kyber-1024\",\"qberThreshold\":0.015}",
+    "isObserved": true,
+    "lastObserved": "Just now",
+    "qcid": "bafyqbi7g2w7km57p3v6z4e2yso36a3z4lqvxnfl4o3iubt5x2d4manifest",
+    "pinnedNodes": [
+      "node-geneva",
+      "node-svalbard",
+      "node-tokyo"
+    ],
+    "isPinned": true,
+    "folderPath": "/",
+    "mimeType": "application/json",
+    "uploadedAt": "2026-09-05 05:00 UTC",
+    "downloadData": "data:application/json;charset=utf-8,%7B%0A%20%20%22network%22%3A%20%22Earth%20Peace%20Quantum%20Mesh%22%2C%0A%20%20%22version%22%3A%20%222.4-HYBRID%22%2C%0A%20%20%22zenodoDoi%22%3A%20%2210.5281%2Fzenodo.22344788%22%2C%0A%20%20%22primaryAuthor%22%3A%20%22A.%20K.%20Dr%20Bheemaiah%22%2C%0A%20%20%22status%22%3A%20%22Active%20Quantum%20Lattice%20Consensus%22%0A%7D"
+  },
+  {
+    "id": "qhfs-001",
+    "name": "planetary_carbon_flux_mesh.qdat",
+    "sizeBytes": 84920000,
+    "tier": "QRAM Superposition",
+    "quantumState": "Superposition |ψ⟩",
+    "qubitsRequired": 16,
+    "coherenceTimeRemainingMs": 21200,
+    "maxCoherenceTimeMs": 120000,
+    "merkleProof": "0x8f2a93c71b40d12e55a81c009bfa774e62d",
+    "latticeHash": "kyber1024-secp-99a4c10ef82d90a7732",
+    "category": "climate-telemetry",
+    "contentPreview": "Quantum LIDAR atmospheric absorption matrices: CO2 delta = -412.3 ppm across Amazon Basin.",
+    "isObserved": false,
+    "qcid": "bafyqbi7g2w7km57p3v6z4e2yso36a3z4lqvxnfl4o3iubt5x2d4uqk6m7a",
+    "pinnedNodes": [
+      "node-geneva",
+      "node-saopaulo",
+      "node-tokyo"
+    ],
+    "isPinned": true,
+    "folderPath": "/climate-telemetry",
+    "chunks": [
+      {
+        "id": "chk-001-0",
+        "index": 0,
+        "hash": "0x8f2a...01",
+        "sizeBytes": 28300000,
+        "storedOnNodeId": "node-geneva",
+        "tier": "QRAM Superposition"
+      },
+      {
+        "id": "chk-001-1",
+        "index": 1,
+        "hash": "0x8f2a...02",
+        "sizeBytes": 28300000,
+        "storedOnNodeId": "node-saopaulo",
+        "tier": "QRAM Superposition"
+      },
+      {
+        "id": "chk-001-2",
+        "index": 2,
+        "hash": "0x8f2a...03",
+        "sizeBytes": 28320000,
+        "storedOnNodeId": "node-tokyo",
+        "tier": "QRAM Superposition"
+      }
+    ],
+    "mimeType": "application/octet-stream",
+    "uploadedAt": "2026-09-04 18:22 UTC",
+    "downloadData": "data:text/plain;charset=utf-8,QHFS_TELEMETRY%3A%20Amazon%20Basin%20LiDAR%20Matrix%0ASensor_UUID%3A%20AMZ-LIDAR-8839%0ACO2_Flux%3A%20-412.3%20ppm%0AEntangled_Qubit_Fidelity%3A%2099.82%25%0APostQuantumLattice%3A%20Kyber-1024"
+  },
+  {
+    "id": "qhfs-002",
+    "name": "earth_peace_non_aggression_pact.epqc",
+    "sizeBytes": 1420000,
+    "tier": "Entangled Nodes",
+    "quantumState": "Entangled |Φ⁺⟩",
+    "qubitsRequired": 8,
+    "coherenceTimeRemainingMs": 118000,
+    "maxCoherenceTimeMs": 120000,
+    "merkleProof": "0x1c98bf3409a234e789d2319087ae78213ba",
+    "latticeHash": "dilithium5-sig-e7289f03ba9198302cd",
+    "category": "peace-treaty",
+    "contentPreview": "Multilateral Global Quantum Non-Aggression & Environmental Demilitarization Treaty, Node Geneva & Svalbard.",
+    "entangledPairId": "qhfs-005",
+    "isObserved": true,
+    "lastObserved": "2 mins ago",
+    "qcid": "bafyqbzacecaoxl735623m7j7h7j374e2x73z2g4uqk6m7abafyqbi7g2w",
+    "pinnedNodes": [
+      "node-geneva",
+      "node-svalbard",
+      "node-nairobi",
+      "node-antarctica"
+    ],
+    "isPinned": true,
+    "folderPath": "/peace-treaties",
+    "chunks": [
+      {
+        "id": "chk-002-0",
+        "index": 0,
+        "hash": "0x1c98...01",
+        "sizeBytes": 473333,
+        "storedOnNodeId": "node-geneva",
+        "tier": "Entangled Nodes"
+      },
+      {
+        "id": "chk-002-1",
+        "index": 1,
+        "hash": "0x1c98...02",
+        "sizeBytes": 473333,
+        "storedOnNodeId": "node-svalbard",
+        "tier": "Entangled Nodes"
+      },
+      {
+        "id": "chk-002-2",
+        "index": 2,
+        "hash": "0x1c98...03",
+        "sizeBytes": 473334,
+        "storedOnNodeId": "node-nairobi",
+        "tier": "Entangled Nodes"
+      }
+    ],
+    "mimeType": "application/x-quantum-treaty",
+    "uploadedAt": "2026-09-05 06:14 UTC",
+    "downloadData": "data:text/plain;charset=utf-8,%3D%3D%3D%20EARTH%20PEACE%20MULTILATERAL%20TREATY%20(2026)%20%3D%3D%3D%0ASignatories%3A%20Geneva%20CERN%20Nexus%2C%20Svalbard%20Arctic%20Vault%2C%20Tokyo%2C%20Nairobi%2C%20S%C3%A3o%20Paulo%0AStipulation%3A%20Permanent%20non-aggression%20covenant%20enforced%20by%20Dilithium-5%20lattice%20signatures%20and%20Bell-pair%20entanglement%20mesh.%0AAll%20signatories%20pledge%20zero%20weaponization%20of%20quantum%20computational%20assets."
+  },
+  {
+    "id": "qhfs-003",
+    "name": "mof_carbon_catalyst_vqe_weights.qbin",
+    "sizeBytes": 52000000,
+    "tier": "QRAM Superposition",
+    "quantumState": "Superposition |ψ⟩",
+    "qubitsRequired": 12,
+    "coherenceTimeRemainingMs": 0,
+    "maxCoherenceTimeMs": 100000,
+    "merkleProof": "0x44d18e90a3c267b901fc88e932456aa0991",
+    "latticeHash": "kyber1024-secp-88b14e9a302cd8890ff",
+    "category": "quantum-code",
+    "contentPreview": "Variational Quantum Eigensolver (VQE) optimized Hamiltonian ground state for metal-organic carbon capture sieve.",
+    "isObserved": false,
+    "qcid": "bafyqbzaceb4u3z4lqvxnfl4o3iubt5x2d4uqk6m7abafyqbi7g2w7km57p",
+    "pinnedNodes": [
+      "node-geneva",
+      "node-tokyo"
+    ],
+    "isPinned": true,
+    "folderPath": "/quantum-circuits",
+    "chunks": [
+      {
+        "id": "chk-003-0",
+        "index": 0,
+        "hash": "0x44d1...01",
+        "sizeBytes": 26000000,
+        "storedOnNodeId": "node-geneva",
+        "tier": "QRAM Superposition"
+      },
+      {
+        "id": "chk-003-1",
+        "index": 1,
+        "hash": "0x44d1...02",
+        "sizeBytes": 26000000,
+        "storedOnNodeId": "node-tokyo",
+        "tier": "QRAM Superposition"
+      }
+    ],
+    "mimeType": "application/x-qbin",
+    "uploadedAt": "2026-09-04 12:00 UTC",
+    "downloadData": "data:text/plain;charset=utf-8,VQE_WEIGHTS_BINARY_DESCRIPTOR%0AHamiltonian_Terms%3A%20128%0AGroundStateEnergy_Hartree%3A%20-74.92813%0AActiveQubits%3A%2012%0AOptimizer%3A%20Quantum%20Natural%20Gradient%0ATarget_Molecule%3A%20MOF-303%20Carbon%20Capture%20Sieve"
+  },
+  {
+    "id": "qhfs-004",
+    "name": "vcu_quantum_mint_registry_2026.ledger",
+    "sizeBytes": 312000000,
+    "tier": "Post-Quantum Cryo-NVMe",
+    "quantumState": "Stabilizer Protected",
+    "qubitsRequired": 4,
+    "coherenceTimeRemainingMs": 3600000,
+    "maxCoherenceTimeMs": 3600000,
+    "merkleProof": "0x99a32c091d34e65bba8709e023847acff12",
+    "latticeHash": "falcon1024-pq-7729bc019348fa99120",
+    "category": "carbon-registry",
+    "contentPreview": "Cryptographic ledger of 428,950 Verified Carbon Units (CQB) anchored with satellite quantum sensor telemetry.",
+    "isObserved": true,
+    "lastObserved": "10 mins ago",
+    "qcid": "bafyqbzacedx2d4uqk6m7abafyqbi7g2w7km57p3v6z4e2yso36a3z4lqvx",
+    "pinnedNodes": [
+      "node-svalbard",
+      "node-reykjavik",
+      "node-antarctica"
+    ],
+    "isPinned": true,
+    "folderPath": "/carbon-registry",
+    "chunks": [
+      {
+        "id": "chk-004-0",
+        "index": 0,
+        "hash": "0x99a3...01",
+        "sizeBytes": 104000000,
+        "storedOnNodeId": "node-svalbard",
+        "tier": "Post-Quantum Cryo-NVMe"
+      },
+      {
+        "id": "chk-004-1",
+        "index": 1,
+        "hash": "0x99a3...02",
+        "sizeBytes": 104000000,
+        "storedOnNodeId": "node-reykjavik",
+        "tier": "Post-Quantum Cryo-NVMe"
+      },
+      {
+        "id": "chk-004-2",
+        "index": 2,
+        "hash": "0x99a3...03",
+        "sizeBytes": 104000000,
+        "storedOnNodeId": "node-antarctica",
+        "tier": "Post-Quantum Cryo-NVMe"
+      }
+    ],
+    "mimeType": "application/x-ledger",
+    "uploadedAt": "2026-09-03 09:30 UTC",
+    "downloadData": "data:text/plain;charset=utf-8,LEDGER%3A%20CARBON_QUANTUM_MINT_2026%0ABlock%3A%20489201%0ATotal_CQB_Minted%3A%20428950%0AProof%3A%20Falcon-1024%20Post-Quantum%20Multi-Signature%0AAttestation%3A%20ISO-14064%20%2B%20Quantum%20Satellite%20LiDAR"
+  },
+  {
+    "id": "qhfs-005",
+    "name": "svalbard_seed_vault_biodiversity_qmerkle.dat",
+    "sizeBytes": 184000000,
+    "tier": "Entangled Nodes",
+    "quantumState": "Entangled |Φ⁺⟩",
+    "qubitsRequired": 8,
+    "coherenceTimeRemainingMs": 115000,
+    "maxCoherenceTimeMs": 120000,
+    "merkleProof": "0x2a77bc0991e23f45ac77198ea001923bc99",
+    "latticeHash": "dilithium5-sig-99812ef02187ac3901b",
+    "category": "peace-treaty",
+    "contentPreview": "Genetic cryptoseed Merkle DAG backed by arctic permafrost quantum sensor entangled with Geneva HQ.",
+    "entangledPairId": "qhfs-002",
+    "isObserved": true,
+    "lastObserved": "5 mins ago",
+    "qcid": "bafyqbzaceev4o3iubt5x2d4uqk6m7abafyqbi7g2w7km57p3v6z4e2yso3",
+    "pinnedNodes": [
+      "node-svalbard",
+      "node-geneva",
+      "node-reykjavik"
+    ],
+    "isPinned": true,
+    "folderPath": "/peace-treaties",
+    "chunks": [
+      {
+        "id": "chk-005-0",
+        "index": 0,
+        "hash": "0x2a77...01",
+        "sizeBytes": 61333333,
+        "storedOnNodeId": "node-svalbard",
+        "tier": "Entangled Nodes"
+      },
+      {
+        "id": "chk-005-1",
+        "index": 1,
+        "hash": "0x2a77...02",
+        "sizeBytes": 61333333,
+        "storedOnNodeId": "node-geneva",
+        "tier": "Entangled Nodes"
+      },
+      {
+        "id": "chk-005-2",
+        "index": 2,
+        "hash": "0x2a77...03",
+        "sizeBytes": 61333334,
+        "storedOnNodeId": "node-reykjavik",
+        "tier": "Entangled Nodes"
+      }
+    ],
+    "mimeType": "application/octet-stream",
+    "uploadedAt": "2026-09-05 02:11 UTC",
+    "downloadData": "data:text/plain;charset=utf-8,SVALBARD_GLOBAL_SEED_VAULT%3A%20GENETIC%20MERKLE%20TREE%0AVault_Temp%3A%20-18.2%20C%0AUnique_Crop_Species%3A%201%2C145%2C693%0APermafrost_Cryo_Telemetry%3A%20Stable%0AEntanglement_Partner%3A%20Geneva_CERN_Nexus"
+  },
+  {
+    "id": "qhfs-006",
+    "name": "grover_hybrid_search_oracle.qasm",
+    "sizeBytes": 8500,
+    "tier": "Post-Quantum Cryo-NVMe",
+    "quantumState": "Collapsed (Classical)",
+    "qubitsRequired": 6,
+    "coherenceTimeRemainingMs": 3600000,
+    "maxCoherenceTimeMs": 3600000,
+    "merkleProof": "0x77a909fc23b41d0198823acbb2909187ec0",
+    "latticeHash": "kyber768-secp-119238fa09912ecb801",
+    "category": "quantum-code",
+    "contentPreview": "OPENQASM 3.0 oracle circuit executing O(sqrt(N)) unindexed search across petabyte cold quantum storage blocks.",
+    "isObserved": true,
+    "lastObserved": "1 hour ago",
+    "qcid": "bafyqbzacefkm57p3v6z4e2yso36a3z4lqvxnfl4o3iubt5x2d4uqk6m7ab",
+    "pinnedNodes": [
+      "node-tokyo",
+      "node-geneva"
+    ],
+    "isPinned": true,
+    "folderPath": "/quantum-circuits",
+    "chunks": [
+      {
+        "id": "chk-006-0",
+        "index": 0,
+        "hash": "0x77a9...01",
+        "sizeBytes": 8500,
+        "storedOnNodeId": "node-tokyo",
+        "tier": "Post-Quantum Cryo-NVMe"
+      }
+    ],
+    "mimeType": "text/x-qasm",
+    "uploadedAt": "2026-09-04 22:45 UTC",
+    "downloadData": "data:text/x-qasm;charset=utf-8,OPENQASM%203.0%3B%0Ainclude%20%22stdgates.inc%22%3B%0Aqubit%5B6%5D%20q%3B%0Abit%5B6%5D%20c%3B%0A%0A%2F%2F%20Grover%20Diffusion%20%26%20Oracle%0Ah%20q%3B%0Ax%20q%5B0%5D%3B%0Ah%20q%5B5%5D%3B%0Acx%20q%5B0%5D%2C%20q%5B5%5D%3B%0Ah%20q%5B5%5D%3B%0Ax%20q%5B0%5D%3B%0A%0Ameasure%20q%20-%3E%20c%3B"
+  },
+  {
+    "id": "qhfs-007",
+    "name": "landscape_code_units_gis_canopy.geojson",
+    "sizeBytes": 4850000,
+    "tier": "Entangled Nodes",
+    "quantumState": "Entangled |Φ⁺⟩",
+    "qubitsRequired": 10,
+    "coherenceTimeRemainingMs": 48800,
+    "maxCoherenceTimeMs": 120000,
+    "merkleProof": "0x55c9118e90a3c267b901fc88e932456aa099",
+    "latticeHash": "kyber1024-zenodo-22344788-cu",
+    "category": "climate-telemetry",
+    "contentPreview": "Geospatial Code Units (C.U.) vector boundary & biophilic canopy data cited from Zenodo DOI 10.5281/zenodo.22344788.",
+    "isObserved": false,
+    "qcid": "bafyqbzacezenodo22344788cu4928104820182740182470129471924",
+    "pinnedNodes": [
+      "node-geneva",
+      "node-svalbard",
+      "node-tokyo"
+    ],
+    "isPinned": true,
+    "folderPath": "/landscape-gis-nfts",
+    "chunks": [
+      {
+        "id": "chk-007-0",
+        "index": 0,
+        "hash": "0x55c9...01",
+        "sizeBytes": 2425000,
+        "storedOnNodeId": "node-geneva",
+        "tier": "Entangled Nodes"
+      },
+      {
+        "id": "chk-007-1",
+        "index": 1,
+        "hash": "0x55c9...02",
+        "sizeBytes": 2425000,
+        "storedOnNodeId": "node-tokyo",
+        "tier": "Entangled Nodes"
+      }
+    ],
+    "mimeType": "application/geo+json",
+    "uploadedAt": "2026-09-05 06:10 UTC",
+    "downloadData": "data:application/geo+json;charset=utf-8,%7B%0A%20%20%22type%22%3A%20%22FeatureCollection%22%2C%0A%20%20%22citation%22%3A%20%22A.%20K.%20Dr%20Bheemaiah%2C%20'Earth%20Peace%20Coin%2C%20q-IPFS%2C%20Code%20Units%20(C.U.)%20and%20NFTs%20in%20Landscape%20Architecture'%2C%20Zenodo%20(2026)%2C%20doi%3A%2010.5281%2Fzenodo.22344788%22%2C%0A%20%20%22features%22%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22type%22%3A%20%22Feature%22%2C%0A%20%20%20%20%20%20%22properties%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22name%22%3A%20%22Biophilic%20Urban%20Canopy%20Corridor%22%2C%0A%20%20%20%20%20%20%20%20%22codeUnits%22%3A%204850%2C%0A%20%20%20%20%20%20%20%20%22canopyCoverPct%22%3A%2078.4%2C%0A%20%20%20%20%20%20%20%20%22shannonBiodiversity%22%3A%203.82%0A%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%22geometry%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22type%22%3A%20%22Polygon%22%2C%0A%20%20%20%20%20%20%20%20%22coordinates%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20103.73%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%201.34%0A%20%20%20%20%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20103.74%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%201.34%0A%20%20%20%20%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20103.74%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%201.35%0A%20%20%20%20%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20103.73%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%201.35%0A%20%20%20%20%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20103.73%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%201.34%0A%20%20%20%20%20%20%20%20%20%20%20%20%5D%0A%20%20%20%20%20%20%20%20%20%20%5D%0A%20%20%20%20%20%20%20%20%5D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D"
+  }
+]
